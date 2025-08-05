@@ -1,0 +1,71 @@
+.pacchetti {
+    background: #fff; 
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.pacchetti h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.pacchetti ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pacchetti li {
+    margin-bottom: 5px;
+}
+.pacchetti li b {
+    font-weight: bold;
+}
+.pacchetti li:last-child {
+    margin-bottom: 0;
+}
+.pacchetti ul li {
+    font-size: 1.1em;
+    color: #555;
+}
+.pacchetti ul li b {
+    color: #000;
+}
+.pacchetti ul li::before {
+    content: "✔️";
+    margin-right: 5px;
+    color: #28a745;
+}
+
+.examples {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+h1, h2, h3 {
+    color: #333;
+}
+p {
+    color: #555;
+}
+body, section, footer {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    background: rgb(8, 133, 206);
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+}
